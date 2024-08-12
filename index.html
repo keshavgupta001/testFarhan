@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PentesterLabs offers expert cybersecurity services including penetration testing, vulnerability assessments, and secure application design. Protect your digital assets with our seasoned team of security professionals. Secure your systems against evolving cyber threats with PentesterLabs.">
+
+    <title>PentesterLabs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    
+</head>
+
+<body>
+    
+    <section class="nav-content">
+        <header class="header">
+            <div class="whole-padding-container" id="navbar">
+                <div class="logo">
+                    <a href="index.html" id="logo-link"><img src="Images/logo.png" ></a>
+                    <a href="index.html" id="logo-text"> &nbsp;PentesterLabs.in</a> 
+                </div>
+                <div class="nav-menu">
+                    <ul class="nav-list-items">
+                        <li class="nav-item">
+                            <a href="services.html">Services</a>
+                            <div class="dropdown">
+                            <div class="dropdown-bg">
+                                <div class="dropdown-left">
+                                    <h1>By Industry</h1>
+                                    <div class="dropdown-left-list">
+                                        <a href="services.html">
+                                        <ul>
+                                            <li><div class="dropdown-left-list-item">
+                                                <img src="Images/penetration-testing.png">
+                                                <p>Penetration Testing</p>
+                                                </div>
+                                            </li>
+                                            
+                                            <li><div class="dropdown-left-list-item">
+                                                <img src="Images/security-policy.png">
+                                                <p>API Security</p>
+                                                </div>
+                                            </li>
+                                            <li><div class="dropdown-left-list-item">
+                                                <img src="Images/surveillance.png">
+                                                <p>Source Code Review</p>
+                                                </div>
+                                            </li>
+                                            <li><div class="dropdown-left-list-item last-user-item user-item dropdown-left-list-item-last">
+                                                <p>Explore All Services</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="dropdown-right">
+                                    <h1>Methods</h1>
+                                    <div class="dropdown-right-list">
+                                        <a href="#service-heading">
+                                            <ul>
+                                                <li><div class="dropdown-left-list-item">
+                                                    <img src="Images/black-box.png">
+                                                    <p>Black Box</p>
+                                                    </div>
+                                                </li>
+                                                <li><div class="dropdown-left-list-item">
+                                                    <img src="Images/white-box.png">
+                                                    <p>White Box</p>
+                                                    </div>
+                                                </li>
+    
+                                                <li><div class="dropdown-left-list-item">
+                                                    <img src="Images/grey-box.png">
+                                                    <p>Grey Box</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="blogs.html">Blogs</a></li>
+                        <li class="nav-item"><a href="#about-us">About Us</a></li>
+                        <div class="nav-item">
+                        <li class="user-item"><a href="mailto:farhankhan2949@gmail.com">Mail us!</a></li>
+                        <li class="user-item last-user-item"><a href="contactus.html">Contact Us</a></li>
+                        </div>
+                    </ul>
+                </div>
+                <!-- <div class="user-menu">
+                    <ul class="user-items">
+                        <li class="user-item"><a href="#">Free Trial</a></li>
+                        <li class="user-item"><a href="#">Request Demo</a></li>
+                    </ul>
+                </div> -->
+                <div id="hamburger-menu" onclick="toggleMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                    <ul class="nav-hamburger" id="nav-hamburger">
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blogs.html">Blogs</a></li>
+                        <li><a href="mailto:keshavg862@gmail.com">Mail Us</a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=916263176939">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="top-right-svg">
+                <img src="Images/sec1-rightTop-bg.svg">
+            </div>
+            <div id="top-left-svg">
+                <img src="Images/sec1-leftTop-bg.svg">
+            </div>
+            </div>
+        </header>
+    </section>
+    <section class="main-content">
+        <div class="whole-padding-container">
+            <div class="text-and-image">
+                <div class="text-content" data-aos="fade-up" data-aos-duration="2000" >
+                    <h1>
+                        <!-- Don't be the Next Breach: -->
+                        Secure Your Digital World with <span style="color: #0B2F58;">PentesterLabs.in</span>
+                    </h1>
+                    <h2>
+                        <!-- Secure Your Digital World with PentesterLabs.in -->
+                    </h2>
+                    <p class="fs20">
+                        <!-- At Pentesterlabs, we are a team of dedicated cybersecurity experts with a passion for safeguarding your digital world. With years of experience in the field, we understand the evolving landscape of cyber threats and are equipped to tackle them head-on. -->
+                        At PentesterLabs, we protect your digital assets with top-tier cybersecurity solutions. Our experienced team proactively identifies and mitigates vulnerabilities, ensuring your business remains secure. Partner with us to stay ahead of evolving cyber threats and safeguard your critical data.
+                    </p>
+
+                    <div class="call-to-action">
+                        <a href="contactus.html">Let's Work Together!</a>
+                    </div>
+                </div>
+                <div class="image-content" data-aos="fade-up" >
+                    <img src="Images/secure-sockets-layer-illustration_23-2149238126.avif">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- approach section -->
+     <section class="approach-section whole-padding-container">
+        <h1>OUR APPROACH</h1>
+        <h2>Discovery to Remediation within a 5-Steps<br>End-to-End Process</h2>
+        <div class="approach-process">
+            <div class="approach-process-box">
+                <div class="approach-process-box-img">
+                    <img src="Images/vigilance.png">
+                </div>
+                <div class="approach-process-box-text">
+                    <h3>Recon</h3>
+                </div>
+            </div>
+            <div class="arrow-odd">
+                <img src="Images/right-arrow.png">
+            </div>
+            <div class="approach-process-box">
+                <div class="approach-process-box-img">
+                    <img src="Images/barcode.png">
+                </div>
+                <div class="approach-process-box-text">
+                    <h3>Scanning</h3>
+                </div>
+            </div>
+            <div class="arrow-even">
+                <img src="Images/right-arrow.png">
+            </div>
+            <div class="approach-process-box">
+                <div class="approach-process-box-img">
+                    <img src="Images/exploit.png">
+                </div>
+                <div class="approach-process-box-text">
+                    <h3>Exploiting</h3>
+                </div>
+            </div>
+            <div class="arrow-odd">
+                <img src="Images/right-arrow.png">
+            </div>
+            <div class="approach-process-box">
+                <div class="approach-process-box-img">
+                    <img src="Images/report.png">
+                </div>
+                <div class="approach-process-box-text">
+                    <h3>Reporting</h3>
+                </div>
+            </div>
+            <div class="arrow-even">
+                <img src="Images/right-arrow.png">
+            </div>
+            <div class="approach-process-box">
+                <div class="approach-process-box-img">
+                    <img src="Images/remediation.png">
+                </div>
+                <div class="approach-process-box-text">
+                    <h3>Remediation</h3>
+                </div>
+            </div>
+            <div class="arrow-odd">
+                <img src="Images/right-arrow.png">
+            </div>
+            <div class="approach-process-box">
+                <div class="approach-process-box-img">
+                    <img src="Images/restesting.png">
+                </div>
+                <div class="approach-process-box-text">
+                    <h3>Re-testing</h3>
+                </div>
+            </div>
+        </div>
+       <!-- <div class="optional-item">
+        <div class="optional-img">
+            <img src="Images/right-arrow.png">
+        </div>
+        <div class="approach-process-box optional-last">
+                <img src="Images/search-icon.svg">
+                <h3>Automation</h3>
+            </div>
+       </div> -->
+     </section>
+
+
+     <!-- Service section -->
+      <div class="service-heading" id="service-heading">
+        <h1>Our Taliored Services</h1>
+        <p>At PentesterLabs, we offer a comprehensive suite of cybersecurity services designed to protect your digital assets and ensure the resilience of your infrastructure. Our expert team leverages cutting-edge tools and methodologies to provide top-tier security solutions tailored to your specific needs.
+        </p>
+      </div>
+     <div class="service-slider">
+        <div class="service-item">
+            <div class="service-image">
+                <img src="Images/penetration-testing.png">
+            </div>
+            <div class="service-text">
+                <h2><a href="services.html#service-penetration-testing">Penetration Testing</a></h2>
+                <p>Our penetration testing services simulate real-world attacks to identify vulnerabilities in your systems before malicious actors can exploit them. Using advanced tools like Burp Suite, Nmap, Metasploit, and Kali Linux, we meticulously assess your security through a structured process.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <div class="service-image">
+                <img src="Images/Vulnerability.png">
+            </div>
+            <div class="service-text">
+                <h2><a href="services.html#service-vulnerability-assessment"> Vulnerability Assessment</a> </h2>
+                <p>We conduct thorough vulnerability assessments to identify weaknesses in your systems, providing you with a prioritized list of vulnerabilities and recommendations for remediation. Our process begins with an initial consultation, followed by asset identification and vulnerability scanning.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <div class="service-image">
+                <img src="Images/risk-assessment.png">
+            </div>
+            <div class="service-text">
+                <h2><a href="services.html#service-risk-assessment-and-management">Secure Application Design</a></h2>
+                <p>Our Secure Application Design service focuses on building robust applications with security embedded at every stage of the development process. We work closely with your development team to ensure that security best practices are integrated from the initial design phase through deployment.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <div class="service-image">
+                <img src="Images/security-policy.png">
+            </div>
+            <div class="service-text">
+                <h2><a href="services.html#service-security-policy-making">Security Policy Making</a></h2>
+                <p>We develop comprehensive security policies tailored to your organization’s needs, ensuring alignment with industry standards and best practices. Our process includes initial consultation, policy development, implementation, and ongoing monitoring to keep your organization well-prepared against security threats.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <div class="service-image">
+                <img src="Images/responsible-disclosure.png">
+            </div>
+            <div class="service-text">
+                <h2><a href="services.html#service-responsible-disclosure">Disclosure Program Management</a></h2>
+                <p>We design and manage responsible disclosure programs to streamline the process of receiving and addressing vulnerability reports from ethical hackers. Our structured approach ensures effective program design, communication setup, and vulnerability handling, followed by remediation support.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <div class="service-image">
+                <img src="Images/code-review.png">
+            </div>
+            <div class="service-text">
+                <h2><a href="services.html#service-code-review">Code Review</a></h2>
+                <p>Our code review services meticulously examine your software code for security vulnerabilities using tools like SonarQube, and Veracode. We provide detailed feedback and support throughout the process to ensure adherence to security best practices, from initial consultation to reporting and remediation.</p>
+
+            </div>
+        </div>
+        <div class="service-item">
+            <div class="service-image">
+                <img src="Images/code-review.png">
+            </div>
+            <div class="service-text">
+                <h2><a href="services.html#service-network-security">Network Security</a></h2>
+                <p>We offer comprehensive network security solutions to safeguard your network infrastructure from unauthorized access, misuse, or theft. Our process includes network assessment, security implementation, and continuous monitoring to ensure robust protection.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <div class="service-image">
+                <img src="Images/code-review.png">
+            </div>
+            <div class="service-text">
+                <h2><a href="services.html#service-api-security">API Security</a></h2>
+                <p>Our API security services focus on safeguarding your APIs from potential threats, ensuring the integrity of your data and functionality. We use tools like Postman, OWASP ZAP, and Burp Suite to assess and implement API security measures, followed by regular monitoring and review.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <div class="service-image">
+                <img src="Images/code-review.png">
+            </div>
+            <div class="service-text">
+                <h2><a href="services.html#service-android-application-testing">Android Application Testing</a></h2>
+                <p>We conduct thorough security testing on Android applications to identify and address vulnerabilities, ensuring user safety. With tools like MobSF, and APKTool, our process covers application assessment, vulnerability identification, reporting, and remediation support to enhance your app’s security.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <div class="service-image">
+                <img src="Images/code-review.png">
+            </div>
+            <div class="service-text">
+                <h2><a href="services.html#service-user-acceptance">User Acceptance Testing</a></h2>
+                <p>Our user acceptance testing ensures that your software meets business requirements and is ready for deployment. We focus on validating the end-user experience through careful planning, test execution, feedback collection, and detailed reporting.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <div class="service-image">
+                <img src="Images/code-review.png">
+            </div>
+            <div class="service-text">
+                <h2><a href="services.html#service-cyber-audits">Cyber Audits</a></h2>
+                <p>We perform comprehensive cyber audits to evaluate and strengthen your organization’s security posture, ensuring compliance with industry standards and regulations. Using tools like Nessus, and QualysGuard, we assess vulnerabilities and support remediation efforts.</p>
+            </div>
+        </div>   
+    </div>
+    <div class="blogs-footer service-slider-footer">
+        <a href="services.html">Explore All Services</a>
+    </div>
+
+    <!-- about us section -->
+     <div class="about-us-heading" id="about-us">
+         <h1>Know About Us</h1>
+    </div>
+    <div class="about-us">
+        <div class="mid-left-svg">
+            <img src="Images/mid-left-svg.svg">
+        </div>
+        <div class="mid-right-svg">
+            <img src="Images/mid-right-svg.svg">
+        </div>
+        <div class="about-us-flex1">
+        <div class="about-us-content">
+            <h2>We test and make secure your businesses like a hacker’s mentality.</h2>
+            <p>
+                <!-- Welcome to Pentesterlabs.in, where our focus is not on cost but on the quality of our work. We believe in delivering top-notch cybersecurity services that build trust and ensure the safety of your digital assets. Our commitment to excellence sets us apart from other service providers, ensuring you receive the best possible protection. -->
+                At PentesterLabs.in, we embody a hacker's mentality to safeguard your digital world. Our commitment to excellence and quality sets us apart, ensuring unparalleled cybersecurity services that build trust and protect your assets.
+                
+            </p>
+        </div>
+        <div class="about-us-content about-us-content-img">
+            <img src="Images/about-us1.png">
+        </div>
+        </div>
+
+        <div class="about-us-flex1 about-us-flex2">
+        <div class="about-us-content about-us-content-img">
+            <img src="Images/about-us2.png">
+        </div>
+        <div class="about-us-content">
+            <p>
+                <!-- We understand the evolving landscape of cyber threats and are equipped to tackle them head-on. Our mission is to provide comprehensive security solutions that not only protect your assets but also empower you to operate with confidence. -->
+                Our mission is to provide comprehensive security solutions that not only protect your assets but also empower you to operate with confidence. With a deep understanding of the ever-changing cyber threat landscape, we're equipped to tackle challenges head-on and ensure your digital safety.
+
+            </p>
+            <br>
+            <h3>We Prioritize</h3>
+            <br>
+            <p class="about-us-mb"><img src="Images/right-arrow.png"> Quality Over Cost</p>
+            <p class="about-us-mb"><img src="Images/right-arrow.png"> Trust and Integrity</p>
+            <p class="about-us-mb"><img src="Images/right-arrow.png"> Expertise and Innovation</p>
+            <p class="about-us-mb"><img src="Images/right-arrow.png"> Customer-Centric Approach</p>
+            <!-- <p>
+                - Quality Over Cost <br>
+                - Trust and Integrity <br>
+                - Expertise and Innovation <br>
+                - Customer-Centric Approach <br>
+            </p> -->
+        </div>
+        </div>
+    </div>
+
+
+     <!-- No of projects section -->
+     <div class="coffee-bicycle-brainstorm-video">
+        <div class="c-b-b-b-v">
+            <h1>150+</h1>
+            <h3>Customers Serverd Globally</h3>
+        </div>
+        <div class="c-b-b-b-v">
+            <h1>300+</h1>
+            <h3>Cybersecurity Projects</h3>
+        </div>
+        <div class="c-b-b-b-v">
+            <h1>100%</h1>
+            <h3>Client Satisfaction</h3>
+        </div>
+        <div class="c-b-b-b-v">
+            <h1>25+</h1>
+            <h3>Cybersecurity Experts</h3>
+        </div>
+    </div>
+
+
+
+
+
+      <!-- application (slant divs) section -->
+      <div class="application-container">
+        <div class="applications-heading">
+           <div class="applications-heading-content">
+           <h1>OUR INDUSTRIES</h1>
+           <h2>Advanced Application Security across Critical Industries</h2>
+       </div>
+        </div>
+        <div class="application-list">
+           <div class="application-list-content">
+               <img src="Images/hospital.png">
+               <h5>Healthcare</h5>
+           </div>
+           <div class="application-list-content">
+               <img src="Images/book.png">
+               <h5>Education</h5>
+           </div>
+           <div class="application-list-content">
+               <img src="Images/telecommunication.png">
+               <h5>IT & Telecom</h5>
+           </div>
+           <div class="application-list-content">
+               <img src="Images/government.png">
+               <h5>Government</h5>
+           </div>
+           <div class="application-list-content">
+               <img src="Images/ecommerce.png">
+               <h5>Ecommerce</h5>
+           </div>
+           <div class="application-list-content">
+               <img src="Images/bank.png">
+               <h5>Bank</h5>
+           </div>
+        </div>
+    </div>
+
+    <!-- blogs section -->
+    <div class="blogs-section">
+        <div class="blogs-heading">
+            <h1>Our Blogs</h1>
+        </div>
+        <div class="blogs-grid">
+            <div class="blogs-grid-item">
+                <a href="blog-pentetration-testing.html">What is Penetration Testing</a>
+                <p>In today's digital age, cybersecurity is a top priority for businesses of all sizes. That's why penetration testing is essential to identify vulnerabilities and strengthen your defenses....</p>
+                <span>July 4, 2024</span>
+            </div>
+            <div class="blogs-grid-item">
+                <a href="#">Blog Heading</a>
+                <p>Blog Content Here</p>
+                <span>July 4, 2024</span>
+            </div>
+            <div class="blogs-grid-item">
+                <a href="">Blog Heading</a>
+                <p>
+                    Blog Content Here Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates numquam enim nostrum quos quaerat animi...
+                </p>
+                <span>July 4, 2024</span>
+            </div>
+        </div>
+        <div class="blogs-footer">
+            <a href="blogs.html">Explore More Blogs</a>
+        </div>
+    </div>
+
+    <!-- Reasons to choose us section -->
+        <div class="reasons-section1">
+            <div class="left-reason1">
+                <h1>Why Choose Us</h1>
+                <p>Our Trustworthy <strong>Cybersecurity Experts</strong> provide comprehensive solutions to safeguard your digital assests and protect your business.</p>
+            </div>
+            <div class="right-reason1">
+                <div class="right-reason-box1">
+                    <div class="right-reason-box-image1">
+                        <img src="Images/barcode.png" alt="">
+                    </div>
+                    <div class="right-reason-box-text1">
+                        <h3>Expertise</h3>
+                        <p>Our team consists of seasoned professionals with extensive experience in penetration testing.</p>
+                    </div>
+                </div>
+                <div class="right-reason-box1">
+                    <div class="right-reason-box-image1">
+                        <img src="Images/bank.png" alt="">
+                    </div>
+                    <div class="right-reason-box-text1">
+                        <h3>Comprehensive Coverage</h3>
+                        <p>We conduct thorough assessments covering all aspects of your infrastructure.</p>
+                    </div>
+                </div>
+                <div class="right-reason-box1">
+                    <div class="right-reason-box-image1">
+                        <img src="Images/book.png" alt="">
+                    </div>
+                    <div class="right-reason-box-text1">
+                        <h3>Tailored Solutions</h3>
+                        <p>We provide customized testing and remediation plans based on your unique needs.</p>
+                    </div>
+                </div>
+                <div class="right-reason-box1">
+                    <div class="right-reason-box-image1">
+                        <img src="Images/vigilance.png" alt="">
+                    </div>
+                    <div class="right-reason-box-text1">
+                        <h3>Continuous Support</h3>
+                        <p>We offer ongoing support and monitoring to ensure your systems remain secure.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- client testimonial -->
+     
+    <div class="client-testimonial">
+        <h1>Our Clients<br>Love our Work</h1>
+        <p style="color: rgb(66, 66, 66); font-style: italic;">But don't just take our word for it...</p>
+        <div class="client-reviews">
+            <div class="client-reviews-box">
+                <div class="review-content">
+                    <!-- content here -->
+                     <p>I have previously taken services from 4-5 companies, but PentesterLabs is the only one that has given me truly satisfactory results. Their expertise and attention to detail are unmatched.</p>
+                </div>
+                <div class="review-customer-name">
+                    <!-- customer name -->
+                     <h5>- Mr. Smith Shah</h5>
+                </div>
+            </div>
+            <div class="client-reviews-box">
+                <div class="review-content">
+                    <!-- content here -->
+                     <p>What I loved the most is there after project completion support. With a successful completion of project, they also help my company afterward. Their working techniques are great!</p>
+                </div>
+                <div class="review-customer-name">
+                    <!-- customer name -->
+                     <h5>- Miss. Siya Raghuwanshi</h5>
+                </div>
+            </div>
+            <div class="client-reviews-box">
+                <div class="review-content">
+                    <!-- content here -->
+                     <p> They provide amazing results on-time! They helped identify and resolve security vulnerabilities efficiently, ensuring my systems were secure and my business could run smoothly without any interruptions.</p>
+                </div>
+                <div class="review-customer-name">
+                    <!-- customer name -->
+                     <h5>- Mr. Prateek Gupta</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- pricing plans
+    <div class="price-heading whole-padding-container">
+        <div class="mid-left-svg">
+            <img src="Images/mid-left-svg.svg">
+        </div>
+        <div class="mid-right-svg">
+            <img src="Images/mid-right-svg.svg">
+        </div>
+        <h2>Check-Out Our Plans...<br><span>Specially Curated for You!</span></h2>
+     </div>
+    <div class="price-plans-list">
+        <div class="price-card" style="background-color: #D7D6F5;">
+            <h1>Basic</h1>
+            <ul style="list-style-type:disc;">
+                <li>Points</li>
+                <li>basic plan</li>
+            </ul>
+            <span class="price-big">&#8377;2000</span>
+            <span class="price-small">/ month</span>
+        </div>
+        <div class="price-card" style="background-color: #C1ECB7;" >
+            <h1>Standard</h1>
+            <ul>
+                <li>Points</li>
+                <li>basic plan</li>
+            </ul>
+            <span class="price-big">&#8377;2000</span>
+            <span class="price-small">/ month</span>
+        </div>
+        <div class="price-card" style="background-color: #FAE8BA;">
+            <h1>Advanced</h1>
+            <ul style="list-style-type:disc;">
+                <li>Points</li>
+                <li>basic plan</li>
+            </ul>
+            <span class="price-big">&#8377;2000</span>
+            <span class="price-small">/ month</span>
+        </div>
+    </div> -->
+
+    <section class="contact-form-section">
+        <!-- <div class="bottom-right-svg">
+            <img src="Images/bottom-right-svg.svg">
+        </div>
+        <div class="bottom-left-svg">
+            <img src="Images/bottom-left-svg.svg">
+        </div> -->
+    </section>
+
+    <!-- footer section -->
+    <div class="footer">
+        <div class="footer-content logo footer-logo">
+            <a href="index.html">
+            <img src="Images/logo-footer.png">
+            </a>
+        </div>
+        <div class="footer-content footer-links">
+            <h6>menu</h6>
+            <a href="services.html">Services</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="#about-us">About Us</a>
+            <!-- <a href="mailto:farhankhan2949@gmail.com">Mail Us</a> -->
+            <a href="contactus.html">Contact Us</a>
+        </div>
+        <div class="footer-content footer-contact">
+            <h6>Contact</h6>
+            <p><img src="Images/email.png">&nbsp; farhankhan2949@gmail.com</p>
+            <p><img src="Images/phone.png">&nbsp; +91 6263176939</p><br>
+            <h6>Follow Us </h6>
+            <!-- <p>F: +44 800 123 400</p> -->
+            <div class="social-links">
+                <a href="https://www.instagram.com/pentesterlabs.in/"><img src="Images/instagram.png"></a>
+                <a href="www.facebook.com"><img src="Images/linkedin.png"></a>
+                <a href="#"><img src="Images/github.png"></a>
+                <a href="www.facebook.com"><img src="Images/instagram.png"></a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        duration:"1000",
+        delay:"100",
+        offset:"150",
+    });
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,211 @@
+html {
+    scroll-behavior: smooth;
+  }
+.service-page-heading{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+    /* background-color: aliceblue; */
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    padding: 50px 0px;
+}
+.service-banner{
+    display: flex;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    padding: 50px 50px;
+    gap: 15px;
+    justify-content: space-around;
+}
+.service-banner-left{
+    width: 45%;
+    font-size: 16px;
+    color: #0700dd;
+}
+.service-banner-left h1{
+    font-size: 32px;
+    margin-top: 10px;
+    line-height: 40px;
+    color: black;
+}
+.service-banner-right{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    color: rgb(77, 76, 76);
+    line-height: 25px;
+}
+.services-page-service-section{
+    display: grid;
+    width: 80%;
+    margin-top: 100px;
+    grid-template-columns: 50% 50%;
+    /* grid-template-columns: 70%; */
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+.service-section-box{
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 12px;
+    min-height: 300px;
+}
+.services-page-service-section :hover{
+    background-color: #4d82c2;
+    color: white;
+    border-radius: 10px;
+}
+.service-section-box h1{
+    font-size: 25px;
+    padding: 30px;
+    /* box-shadow: 10px 0px 10px rgb(77, 76, 76); */
+}
+.service-section-box hr{
+    width: 50%;
+    margin-left: 30px;
+    opacity: 0.5;
+}
+.service-section-box p{
+    padding: 20px 30px;
+    line-height: 22px;
+    /* padding-bottom: 0px; */
+}
+.tools-and-process{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.service-section-box h3{
+    padding: 0px 30px;
+    /* padding-bottom: 0px; */
+    /* padding-top: 0; */
+}
+.service-booking{
+    display: flex;
+    background-color: #0B2F5B;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 81%;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 50px;
+    justify-content: space-between;
+}
+.service-booking-left{
+    width: 60%;
+}
+.service-booking-left h1{
+    margin-bottom: 15px;
+}
+.service-booking-left p{
+    line-height: 25px;
+    color: rgb(216, 215, 215);
+
+}
+.service-booking-right{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-booking-right a{
+    background-color: black;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+}
+.service-booking-right a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.4s ease-in-out;
+}
+
+@media (max-width: 1000px){
+    .service-banner{
+        gap: 8px;
+    }
+    .service-banner-left h1{
+        font-size: 25px;
+    }
+    .service-banner-right{
+        font-size: 14px;
+        width: 60%;
+    }
+    .services-page-service-section{
+        width: 90%;
+    }
+}
+@media (max-width: 750px){
+    .service-page-heading{
+        font-size: 30px;
+    }
+    .service-banner-left h1{
+        font-size: 21px;
+    }
+    .service-banner-left{
+        font-size: 14px;
+    }
+    .services-page-service-section{
+        grid-template-columns: 100%;
+    }
+}
+@media (max-width: 700px){
+    .service-banner{
+        width: 100%;
+        padding: 25px;
+    }
+}
+@media (max-width: 500px){
+    .service-page-heading{
+        margin-top: 0; 
+        font-size: 23px;
+    }
+    .service-banner{
+        flex-direction: column;
+    }
+    .service-banner-left{
+        width: 100%;
+    }
+    .service-banner-left h1{
+
+        line-height: 30px;
+    }
+    .service-banner-right{
+        width: 100%;
+        line-height: 20px;
+    }
+    .services-page-service-section{
+        grid-template-columns: auto;
+    }
+    .service-booking{
+        flex-direction: column;
+        gap: 30px;
+        width: 90%;
+        padding: 30px;
+    }
+
+    .service-booking-left{
+        width: 100%;
+    }
+    .service-booking-left h1{
+        font-size: 20px;
+    }
+    .service-booking-right{
+        width: 100%;
+    }
+    .service-booking-right a{
+        font-size: 14px;
+    }
+}
